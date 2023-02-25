@@ -18,19 +18,19 @@
 }
 
 .owl-prev {
-    left: -25px;
+    left: -30px;
 }
 
 .owl-next {
-    right: -25px;
+    right: -30px;
 }
 
 .owl-prev:before{
-	content: "\f053";
+	content: "\21E6";
 }
 
 .owl-next:before{
-	content: "\f054";
+	content: "\21E8";
 }
 
 @media only screen and (max-width: 765px){
