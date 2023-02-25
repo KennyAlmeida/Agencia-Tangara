@@ -10,6 +10,7 @@
 
 :root {
   --orange: #fa4b08;
+  --blue: #0b2e4c;
 }
 
 html {
@@ -42,8 +43,8 @@ ul{
 }
 
 header {
-    background: url(../image/banner.png) rgba(0,0,0 , 0.5) no-repeat center center fixed;
-    min-height: 550px;
+    background: url(../image/banner.png) rgba(0,0,0 , 0.5) no-repeat center center;
+    min-height: 650px;
     position: relative;
 }
 
@@ -98,15 +99,16 @@ header {
     flex-direction: column;
     color: #fff;
     margin-left: 50px;
+    margin-top: 30px;
 }
 
 .content-banner-bg {
     overflow: hidden;
     box-sizing: border-box;
-    border: rgba(255,255,250 , 0.1) 4px solid;
+    border: rgba(255,255,250 , 0.3) 4px solid;
     padding: 20px;
-    border-radius: 5px;
-    width: 40%;
+    border-radius: 15px;
+    width: 45%;
 }
 
 .content-banner-bg img{
@@ -173,6 +175,12 @@ header {
     padding: 20px 0;
 }
 
+.section-1 h2,
+.section-1 h3,
+.section-1 p{
+    color: var(--blue);
+}
+
 .blog-title {
     overflow: hidden;
     text-align: left;
@@ -209,7 +217,7 @@ header {
 
   .section-2 h2{
     color: #fff;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
     text-align: center;
     margin-top: 30px;
@@ -253,4 +261,92 @@ header {
 
   span.orange{
     color: var(--orange)
+  }
+
+  .img-carousel{
+    width: 450px !important;
+    box-shadow: none !important;
+  }
+
+  .servicos{
+    margin-top: 55px;
+  }
+
+  .servicos h2{
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .servicos p{
+    text-align: center;
+  }
+
+  .servicos img{
+    width: 250px;
+  }
+
+  footer{
+    background: url(../image/bg-azul.png) no-repeat ;
+    padding: 10px 0;
+  }
+
+  footer p{
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  footer p a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+
+  footer p.link{
+    margin-bottom: 10px;
+  }
+
+  .content-footer{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .content-footer a img{
+    margin: 0 10px;
+    width: 25px;
+  }
+
+  .content-footer a img:hover{
+    opacity: 0.5;
+  }
+
+  .logo-rodape{
+    width: 200px !important;
+  }
+
+  .container-modal{
+    max-width: 600px !important;
+  }
+
+  .container-modal h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--orange);
+    margin-top: 25px;
+  }
+
+  .container-modal p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 20px;
+  }
+
+  .container-modal img{
+    margin: 10px auto;
+    display: block;
+
   }

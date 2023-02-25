@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="assets/js/owl.carousel.js" ></script>
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.css">
+
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <script src="assets/js/jquery.fancybox.min.js" ></script>
+
     <title>Tangará</title>
 </head>
 <body>
@@ -46,20 +54,118 @@
     </header>
 
     <div class="section-1">
-        <div class="container">
+        <div class="container" id="por-que">
             <h2 class="blog-title">Por que Tangará<span class="orange">?</span></h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <h3>O início</h3>
-                    <p>A história da Tangará começa quando Lucas Calazans e Felipe Galvão se conheceram no colégio e logo se tornaram grandes amigos. Nos anos seguintes Lucas iniciaria sua careira de designer gráfico e Felipe buscaria se tornar um jovem economista. Porém o que pareciam caminhos completamente opostos viriam a se tornar um grande projeto.</p>
+            <div class="owl-carousel owl-theme centralizar owl-demo">
+                <div class="item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>O início</h3>
+                            <p>A história da Tangará começa quando Lucas Calazans e Felipe Galvão se conheceram no colégio e logo se tornaram grandes amigos. Nos anos seguintes Lucas iniciaria sua careira de designer gráfico e Felipe buscaria se tornar um jovem economista. Porém o que pareciam caminhos completamente opostos viriam a se tornar um grande projeto.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-carousel" src="assets/image/socios.png" alt="O início" title="O início">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Caxinguelê</h3>
+                            <p>Em 2021 trabalharam juntos na publicação independente do livro “Caxinguelê”. Livro fotográfico dedicado a apresentar a exuberante natureza da Zona Oeste da Região Metropolitana de São Paulo. Livro esse que levava uma fotografia do pássaro Tangará. </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-carousel" src="assets/image/livro.png" alt="Caxinguelê" title="Caxinguelê">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Design</h3>
+                            <p>Após o sucesso do primeiro projeto conjunto e com a percepção de que a união de habilidades complementares poderia levá-los mais longe, decidira se juntar para fundar uma nova empresa de design. Sem um nome em mente decidiram buscar uma referência em seu primeiro projeto. Reencontrando assim a imagem do pássaro Tangará que viria a dar nome a empresa “Tangará Design” dedicada a prestação de serviços de design gráfico, seguindo a filosofia “Essencial à primeira vista”.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-carousel" src="assets/image/design.png" alt="Design" title="Design">
+                        </div>
+                    </div>
                 </div>
             </div>
+            
+        </div>
+
+        <div class="container servicos" id="servicos">
+            <h2 class="txtcenter">Nossos serviço<span class="orange">s</span></h2>
+            <p>Conheça tudo que podemos oferecer de solução para sua empresa!</p>
+            <div class="owl-carousel owl-theme centralizar owl-demo2">
+                <div class="item">
+                    <a class="lightbox" data-src="#modal" href="javascript:;">
+                        <img src="assets/image/servico-01.png" alt="Serviços" title="Serviços">
+                    </a>
+                    <div style="display: none;" class="container-modal" id="modal">
+                        <img src="assets/image/icone-01.png" alt="Serviços" title="Serviços">
+                        <h2>Edição de vídeo:</h2>
+                        <p>A edição de vídeo é uma parte crucial na produção de filmes, programas de televisão, vídeos publicitários, documentários e outros tipos de conteúdo de vídeo. Um editor de vídeo precisa ter habilidades técnicas para trabalhar com software de edição de vídeo e habilidades criativas para criar uma história envolvente e impactante. A edição de vídeo é uma parte importante da pós-produção, que inclui todas as etapas após a filmagem, como, som, correção de cores e finalização.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="lightbox" data-src="#modal2" href="javascript:;">
+                        <img src="assets/image/servico-02.png" alt="Serviços" title="Serviços">
+                    </a>
+                    <div style="display: none;" class="container-modal" id="modal2">
+                        <img src="assets/image/icone-02.png" alt="Serviços" title="Serviços">
+                        <h2>Design de Landing Pages:</h2>
+                        <p>As landing pages são projetadas para serem diretas e objetivas, com o objetivo claro de guiar o visitante a uma ação específica, como fazer uma compra ou se inscrever em uma lista de e-mail. A criação de landing pages eficazes requer a identificação do público-alvo e da jornada de compra, bem com a otimização de elementos visuais para facilitar e otimizar a experiencia do usuário.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="lightbox" data-src="#modal3" href="javascript:;">
+                        <img src="assets/image/servico-03.png" alt="Serviços" title="Serviços">
+                    </a>
+                    <div style="display: none;" class="container-modal" id="modal3">
+                        <img src="assets/image/icone-03.png" alt="Serviços" title="Serviços">
+                        <h2>Logotipo:</h2>
+                        <p>O logotipo é possivelmente o elemento mais importante da estratégia de marketing de uma empresa, pois ajuda a criar uma imagem sólida e consistente para sua marca e a transmitir sua mensagem de maneira eficaz.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="lightbox" data-src="#modal4" href="javascript:;">
+                        <img src="assets/image/servico-04.png" alt="Serviços" title="Serviços">
+                    </a>
+                    <div style="display: none;" class="container-modal" id="modal4">
+                        <img src="assets/image/icone-04.png" alt="Serviços" title="Serviços">
+                        <h2>Identidade Visual:</h2>
+                        <p>A identidade visual de uma marca é importante porque ajuda a estabelecer a presença da marca e a diferenciá-la de outras marcas, além de criar uma associação positiva com seus produtos ou serviços. A identidade visual também ajuda a construir a confiança e a lealdade dos clientes ao longo do tempo, ao fornecer uma imagem consistente e confiável da marca.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="lightbox" data-src="#modal5" href="javascript:;">
+                        <img src="assets/image/servico-05.png" alt="Serviços" title="Serviços">
+                    </a>
+                    <div style="display: none;" class="container-modal" id="modal5">
+                        <img src="assets/image/icone-05.png" alt="Serviços" title="Serviços">
+                        <h2>Design Mídias Digitais:</h2>
+                        <p>O design de mídias digitais também leva em consideração as necessidades dos usuários e as expectativas da marca, para garantir que a experiência visual do usuário seja atrativa, e consistente com a imagem da marca. É uma área interdisciplinar que combina conhecimentos de design gráfico, tecnologia da informação, marketing e psicologia, para criar soluções digitais eficazes e atraentes que ajudem a alcançar os objetivos da marca.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="lightbox" data-src="#modal6" href="javascript:;">
+                        <img src="assets/image/servico-06.png" alt="Serviços" title="Serviços">
+                    </a>
+                    <div style="display: none;" class="container-modal" id="modal6">
+                        <img src="assets/image/icone-06.png" alt="Serviços" title="Serviços">
+                        <h2>Design Comunicação Visual:</h2>
+                        <p>O design de comunicação visual é aplicado em muitas áreas, incluindo publicidade, marketing, design editorial, identidade visual e sinalização. O objetivo principal é criar uma mensagem visual atrativa e eficaz que ajude a alcançar os objetivos de comunicação da marca ou da organização. O design de comunicação visual requer habilidades criativas, técnicas de design e conhecimento sobre comunicação e comportamento humano, para garantir que a mensagem seja transmitida de maneira clara e impactante.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
     <div class="section-2">
-        <div class="container">
-            <h2>Portfólio</h2>
+        <div class="container" id="portfolio">
+            <h2>Portfóli<span class="orange">o</span></h2>
             <p>Veja os projetos que realizamos com empresas de todo país!</p>
 
             <div class="row portfolio">
@@ -100,8 +206,66 @@
         </div>
 
     </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <p><b>Atendimento:</b></p>
+                    <p class="link"><a href="tel:1194140.2021">11 94140.2021</a></p>
+                    <p><b>E-mail para contato:</b></p>
+                    <p class="link"><a href="mailto:contato@tangaradesign.com">contato@tangaradesign.com</a></p>
+                    <p><b>Horário de atendimento:</b></p>
+                    <p>Segunda à Sexta 9h as 19h</p>
+                </div>
+                <div class="col-4 content-footer">
+                    <a href="https://www.instagram.com/tangaradesign/" target="_blank" title="Tangará Instagram"><img src="assets/image/icone-instagram.png" alt="Instagram" title="Instagram"></a>
+                    <a href="https://www.linkedin.com/company/tangaradesign/" target="_blank" title="Tangará Linkedin"><img src="assets/image/icone-linkedin.png" alt="Linkedin" title="Linkedin"></a>
+                    <a href="" target="_blank" title="Tangará Whatsapp"><img src="assets/image/icone-whatsapp.png" alt="Whatsapp" title="Whatsapp"></a>
+                    
+                </div>
+                <div class="col-4 content-footer">
+                    <a href="#" title="logo rodape"><img class="logo-rodape" src="assets/image/logo-rodape.png" alt="logo rodape" title="logo rodape"> </a>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
+    <script>
+        $(document).ready(function() {
+        $(".owl-demo").owlCarousel({
+        autoPlay: 3000,
+        items : 1, // Quantidade de itens que irá aparecer
+        itemsDesktopSmall : [979,1],
+        itemsTablet : [768, 1],
+        itemsMobile : [600, 1],
+        navigation : false,
+        pagination : true,
+        });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+        $(".owl-demo2").owlCarousel({
+        autoPlay: 3000,
+        items : 4, // Quantidade de itens que irá aparecer
+        itemsDesktopSmall : [979,3],
+        itemsTablet : [768, 2],
+        itemsMobile : [600, 1],
+        navigation : false,
+        pagination : true,
+        });
+        });
+    </script>
+    <script >
+    $(document).ready(function() {
+    $('.lightbox').fancybox({
+    });
+    });
+    </script>
+    
 </body>
 </html>
