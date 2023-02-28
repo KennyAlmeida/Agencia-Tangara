@@ -101,7 +101,7 @@ header {
   flex-direction: column;
   color: #fff;
   margin-left: 18px;
-  margin-top: 95px;
+  margin-top: 26px;
 }
 
 .content-banner-bg {
@@ -114,7 +114,9 @@ header {
 }
 
 .content-banner-bg img {
-  width: 350px;
+  width: 42px;
+  position: relative;
+  bottom: 5px;
 }
 
 .content-banner h1 {
@@ -154,14 +156,14 @@ header {
   transition: .3s;
 }
 
-.btn img{
+.btn img {
   width: 20px;
   margin-right: 5px;
   position: relative;
   bottom: 2px;
 }
 
-.btn-menu{
+.btn-menu {
   background-color: var(--orange);
   border: 0;
   border-radius: 5px;
@@ -456,7 +458,9 @@ footer p.link {
   margin-left: 5em;
 }
 
-.menu-icon{width: 7%;}
+.menu-icon {
+  width: 7%;
+}
 
 /* SCROLL PAGE */
 ::-webkit-scrollbar {
@@ -471,11 +475,11 @@ footer p.link {
   background-color: white;
 }
 
-.custom-logo{
+.custom-logo {
   max-width: 132px;
 }
 
-.contato-footer{
+.contato-footer {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -483,46 +487,47 @@ footer p.link {
 
 /* END SCROLL PAGE */
 
-ol, ul {
+ol,
+ul {
   padding-left: 3rem;
 }
 
-.img-carrousel-portfolio{
-  width: 200px;
+.img-carrousel-portfolio {
+  width: 226px;
 }
 
 
 @media screen and (max-width:1440px) {
-  .section-1{
+  .section-1 {
     background-size: contain;
   }
 }
 
 @media screen and (min-width:2560px) {
-  .section-1{
+  .section-1 {
     background-size: contain;
   }
 }
 
 @media screen and (max-width: 766px) {
   header {
-    background-size: cover!important;
+    background-size: cover !important;
     background-position-x: -87px;
   }
 
-  header .container:nth-child(1){
+  header .container:nth-child(1) {
     background-color: transparent;
     height: 50px;
   }
 
   .content-banner-bg {
     background: #0000003b;
-    width: 100%!important;
+    width: 100% !important;
   }
 
   .content-banner {
     position: relative;
-    top: 180px;
+    top: 100px;
     margin-top: 0;
   }
 
@@ -555,17 +560,18 @@ ol, ul {
     height: 290px;
     object-fit: cover;
   }
-  .menu-mobile-custom{
+
+  .menu-mobile-custom {
     margin-left: 48px;
     position: relative;
     top: 19px;
   }
 
-  .menu-mobile-custom-logo{
-    margin-left: 78px;
+  .menu-mobile-custom-logo {
+    margin-left: 50px;
   }
 
-  #menu-mobile{
+  #menu-mobile {
     width: 100%;
     background: #FFF;
     position: fixed;
@@ -576,59 +582,63 @@ ol, ul {
     transition: .4s ease-in-out;
   }
 
-  #menu-mobile nav{
+  #menu-mobile nav {
     padding-top: 30px;
   }
 
-  #menu-mobile nav ul li{
+  #menu-mobile nav ul li {
     padding-bottom: 20px;
     list-style-type: none;
   }
 
-  #menu-mobile nav ul li a{
+  #menu-mobile nav ul li a {
     color: #000;
     text-decoration: none;
   }
 
-  #menu-mobile h3{
+  #menu-mobile h3 {
     color: #000;
   }
 
-  .content-banner h1{
+  .content-banner h1 {
     font-size: 35px;
   }
-  
-  .contato-footer{
+
+  .contato-footer {
     display: flex;
     align-items: center;
     margin-bottom: 40px !important;
   }
 
-  .contato-footer p{
-   font-weight: bold;
+  .contato-footer p {
+    font-weight: bold;
   }
 
-  .contato-footer p:last-child{
-    font-weight: 400; 
+  .contato-footer p:last-child {
+    font-weight: 400;
   }
 
-  #modal{
+  #modal {
     width: 379px;
   }
 
-  #modal-2{
+  #modal-2 {
     width: 379px;
   }
-  #modal-3{
+
+  #modal-3 {
     width: 379px;
   }
-  #modal-4{
+
+  #modal-4 {
     width: 379px;
   }
-  #modal-5{
+
+  #modal-5 {
     width: 379px;
   }
-  #modal-6{
+
+  #modal-6 {
     width: 379px;
   }
 
@@ -655,21 +665,24 @@ ol, ul {
     margin-left: 0px;
   }
 
-  .menu{
+  .menu {
     justify-content: start;
   }
 
-  .content-banner-bg{
+  .content-banner-bg {
     width: 53%;
   }
 
-  .section-1{
+  .section-1 {
     background-size: cover;
     background-position: left;
   }
 
-  .content-footer a img{
+  .content-footer a img {
     display: none;
   }
-}
 
+  .content-banner-bg img {
+    width: 31px;
+  }
+}
