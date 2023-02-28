@@ -492,9 +492,21 @@ ol, ul {
 }
 
 
+@media screen and (max-width:1440px) {
+  .section-1{
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width:2560px) {
+  .section-1{
+    background-size: contain;
+  }
+}
+
 @media screen and (max-width: 766px) {
   header {
-    background-size: cover;
+    background-size: cover!important;
     background-position-x: -87px;
   }
 
@@ -504,7 +516,7 @@ ol, ul {
   }
 
   .content-banner-bg {
-    background: #0006;
+    background: #0000003b;
     width: 100%!important;
   }
 
@@ -635,7 +647,7 @@ ol, ul {
   }
 
   .img-carousel2 {
-    width: 360px !important;
+    width: 341px !important;
     box-shadow: none !important;
   }
 
@@ -655,16 +667,9 @@ ol, ul {
     background-size: cover;
     background-position: left;
   }
-}
 
-@media screen and (max-width:1440px) {
-  .section-1{
-    background-size: contain;
+  .content-footer a img{
+    display: none;
   }
 }
 
-@media screen and (max-width:2560px) {
-  .section-1{
-    background-size: contain;
-  }
-}
