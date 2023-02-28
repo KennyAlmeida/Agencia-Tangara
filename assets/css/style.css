@@ -662,3 +662,9 @@ ol, ul {
     background-size: contain;
   }
 }
+
+@media screen and (max-width:2560px) {
+  .section-1{
+    background-size: contain;
+  }
+}
