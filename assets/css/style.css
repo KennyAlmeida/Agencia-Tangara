@@ -44,7 +44,7 @@ ul {
 
 header {
   background: url(../image/banner.jpg) rgba(0, 0, 0, 0.5) no-repeat center center;
-  min-height: 105vh;
+  min-height: 101vh;
   position: relative;
   background-size: cover;
 }
@@ -76,7 +76,7 @@ header {
 .menu ul {
   display: flex;
   list-style: none;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -144,18 +144,21 @@ header {
   background-color: var(--orange);
   color: #fff;
   border: none;
-  padding: 12px;
+  padding: 11px 12px;
   border-radius: 5px;
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
   margin-top: 5px;
+  border: 1.6px solid var(--orange);
   transition: .3s;
 }
 
 .btn img{
   width: 20px;
   margin-right: 5px;
+  position: relative;
+  bottom: 2px;
 }
 
 .btn-menu{
@@ -167,7 +170,7 @@ header {
 
 .btn:hover {
   background-color: transparent;
-  border: 1px solid var(--orange);
+  border: 1.6px solid var(--orange);
 }
 
 .btn2 {
@@ -206,20 +209,23 @@ header {
   background: url(../image/bg-branco.png) no-repeat;
   min-height: 550px;
   padding: 20px 0;
-  background-size: cover;
+  background-size: 68%;
+  background-position-x: center;
+  background-position-y: 1px;
   margin-top: 0;
 }
 
-.section-1:after {
+/* .section-1:after {
   content: " ";
   position: relative;
-  top: 52px;
+  top: 46px;
   display: inline-block;
   border-radius: 0px 0px 30px 30px;
   width: 100%;
-  height: 28px;
+  height: 21px;
   background: #FFF;
-}
+
+} */
 
 .section-1 h2,
 .section-1 h3,
@@ -477,9 +483,19 @@ footer p.link {
 
 /* END SCROLL PAGE */
 
+ol, ul {
+  padding-left: 3rem;
+}
+
+.img-carrousel-portfolio{
+  width: 200px;
+}
+
+
 @media screen and (max-width: 766px) {
   header {
     background-size: cover;
+    background-position-x: -87px;
   }
 
   header .container:nth-child(1){
@@ -494,7 +510,7 @@ footer p.link {
 
   .content-banner {
     position: relative;
-    top: 50px;
+    top: 180px;
     margin-top: 0;
   }
 
@@ -526,6 +542,15 @@ footer p.link {
   .portfolio-3 img {
     height: 290px;
     object-fit: cover;
+  }
+  .menu-mobile-custom{
+    margin-left: 48px;
+    position: relative;
+    top: 19px;
+  }
+
+  .menu-mobile-custom-logo{
+    margin-left: 78px;
   }
 
   #menu-mobile{
@@ -575,11 +600,33 @@ footer p.link {
     font-weight: 400; 
   }
 
+  #modal{
+    width: 379px;
+  }
+
+  #modal-2{
+    width: 379px;
+  }
+  #modal-3{
+    width: 379px;
+  }
+  #modal-4{
+    width: 379px;
+  }
+  #modal-5{
+    width: 379px;
+  }
+  #modal-6{
+    width: 379px;
+  }
+
+
 }
 
 @media screen and (max-width: 768px) {
   header {
     background-size: cover;
+    background-position-x: -87px;
   }
 
   .img-carousel {
@@ -602,5 +649,16 @@ footer p.link {
 
   .content-banner-bg{
     width: 53%;
+  }
+
+  .section-1{
+    background-size: cover;
+    background-position: left;
+  }
+}
+
+@media screen and (max-width:1440px) {
+  .section-1{
+    background-size: contain;
   }
 }
