@@ -3016,7 +3016,9 @@ if (typeof Object.create !== "function") {
 
         startDragging : false,
 
-        afterLazyLoad: false
+        afterLazyLoad: false,
+
+        stagePadding: 20
 
     };
 

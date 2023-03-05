@@ -60,7 +60,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 17px 0;
+  padding: 35px 0 15px 0;
 }
 
 .menu a {
@@ -101,7 +101,7 @@ header {
   flex-direction: column;
   color: #fff;
   margin-left: 18px;
-  margin-top: 26px;
+  margin-top: 55px;
 }
 
 .content-banner-bg {
@@ -152,7 +152,7 @@ header {
   font-weight: bold;
   text-decoration: none;
   margin-top: 5px;
-  border: 1.6px solid var(--orange);
+  border: 1.5px solid var(--orange);
   transition: .3s;
 }
 
@@ -172,12 +172,12 @@ header {
 
 .btn:hover {
   background-color: transparent;
-  border: 1.6px solid var(--orange);
+  border: 1.5px solid var(--orange);
 }
 
 .btn2 {
   background-color: transparent;
-  border: var(--orange) 2px solid;
+  border: var(--orange) 1.5px solid;
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
@@ -190,6 +190,7 @@ header {
 
 .btn2:hover {
   background-color: var(--orange);
+  
 }
 
 .p-btn {
@@ -460,6 +461,8 @@ footer p.link {
 
 .menu-icon {
   width: 7%;
+  position: absolute;
+  left: 23px;
 }
 
 /* SCROLL PAGE */
@@ -483,6 +486,14 @@ footer p.link {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+}
+
+.contato-footer p{
+  font-weight: bold;
+}
+
+.contato-footer p:last-child{
+  font-weight: 400;
 }
 
 /* END SCROLL PAGE */
@@ -527,7 +538,7 @@ ul {
 
   .content-banner {
     position: relative;
-    top: 100px;
+    top: 55px;
     margin-top: 0;
   }
 
@@ -562,14 +573,19 @@ ul {
   }
 
   .menu-mobile-custom {
-    margin-left: 48px;
     position: relative;
     top: 19px;
+    display: flex;
+    justify-content: center;
   }
 
-  .menu-mobile-custom-logo {
-    margin-left: 50px;
+  .banner-icone{
+    bottom: 45px;
   }
+
+  /* .menu-mobile-custom-logo {
+    margin-left: 50px;
+  } */
 
   #menu-mobile {
     width: 100%;
@@ -596,8 +612,21 @@ ul {
     text-decoration: none;
   }
 
+  #menu-mobile div{
+    margin: 0 50px;
+  }
+
   #menu-mobile h3 {
     color: #000;
+    padding: 0 !important;
+  }
+
+  #menu-mobile p {
+    text-align: right;
+  }
+
+  #menu-mobile hr {
+    margin: 5px 0 !important;
   }
 
   .content-banner h1 {
@@ -649,6 +678,7 @@ ul {
   header {
     background-size: cover;
     background-position-x: -87px;
+    min-height: 600px;  
   }
 
   .img-carousel {
@@ -678,11 +708,38 @@ ul {
     background-position: left;
   }
 
-  .content-footer a img {
+  .d-none-mobile {
     display: none;
   }
 
   .content-banner-bg img {
     width: 31px;
   }
+}
+
+
+@media screen and (max-width: 325px) {
+  header {
+
+    min-height: 650px;  
+  }
+}
+
+.owl-demo2 .owl-item {
+  width: 600px;
+}
+
+
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+.swiper-portifolio{
+  margin-bottom: 20px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
