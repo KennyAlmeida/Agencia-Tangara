@@ -515,6 +515,10 @@ ul {
   right: 27px;
 }
 
+.bold{
+  font-weight: bold;
+}
+
 
 @media screen and (max-width:1440px) {
   .section-1 {
