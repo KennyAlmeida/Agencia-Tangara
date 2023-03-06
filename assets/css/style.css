@@ -127,6 +127,8 @@ header {
 .content-banner p {
   font-size: 16px;
   font-weight: 200;
+  z-index: 9;
+  position: relative;
 }
 
 .banner-icone {
@@ -507,6 +509,12 @@ ul {
   width: 226px;
 }
 
+.whatsapp{
+  position: relative;
+  bottom: 34px;
+  right: 27px;
+}
+
 
 @media screen and (max-width:1440px) {
   .section-1 {
@@ -518,6 +526,7 @@ ul {
   .section-1 {
     background-size: contain;
   }
+  .content-banner{margin-top: 130px;}
 }
 
 @media screen and (max-width: 766px) {
